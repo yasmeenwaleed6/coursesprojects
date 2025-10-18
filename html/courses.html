@@ -9,7 +9,7 @@
    <link rel="stylesheet" href="../css/bootstrap.css">
    <style>
     body{
-        color: aliceblue;
+        color: rgb(34, 56, 75);
     }
     .main header{
         height:150px;
@@ -28,6 +28,64 @@
 .sec1 .text a{
     text-decoration: none;
 }
+.courses{
+    height:auto;
+    width:80%;
+    margin:50px auto;
+}
+.card {
+    position: relative;
+    overflow: hidden;
+  }
+
+
+  .card a img {
+    width: 100%;
+    display: block;
+  }
+  .card a img:hover{
+    opacity: .7;
+  }
+  .card a button {
+    font-size: x-small;
+    position: absolute;
+    top: 40px;
+    right: 2px; 
+    transform: translateY(-50%); 
+    background-color: rgba(59, 253, 29, 0.6);
+    color: rgb(14, 129, 51);
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 1;
+   
+  }
+  .card a button:hover {
+    background-color: rgba(77, 155, 57, 0.8);
+    color: aliceblue;
+    
+  }
+   a.link-anim {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  a.link-anim::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;  
+    width: 0; 
+     height: 3px; 
+    background-color: #1c252e; 
+    transition: width 0.3s ease-in-out;
+  }
+  a.link-anim:hover::after {
+    width: 100%;
+  }
+
    </style>
     <title>Document</title>
 </head>
@@ -47,6 +105,89 @@
     </div>
 </section>
   </main>
-  
+  <div class="courses text-center container">
+  <div class="texts">
+    <span class="bg-primary-subtle p-2 m-1 border rounded">courses</span>
+    <h6 class="m-3 p-1 fw-bold display-6">Enrichment materials and interactive clubs</h6>
+  </div>
+
+  <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-4 justify-content-center align-content-center text-capitalize">
+    <div class="col">
+      <div class="card h-100">
+       <a href=""><img src="../images/german language.png" class="card-img-top" alt="..."><button href="" class="small btn btn-success-subtle ">german language</button>
+    </a> 
+        <div class="card-body text-start">
+          <p class="card-text"><i class="fa-solid fa-clock-twelve"></i><span class="text-secondary"> 0 h 0 m</span> <i class="fa-solid fa-people-roof"></i><span class="text-secondary"> 0 students </span></p>
+          <a class="card-title fw-bold text-secondary text-decoration-none link-anim" href="" >german language</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+       <a href=""><img src="../images/edura english power.png" class="card-img-top" alt="..."><button href="" class="small btn btn-success-subtle ">edura english power</button>
+    </a> 
+        <div class="card-body text-start">
+          <p class="card-text"><i class="fa-solid fa-clock-twelve"></i><span class="text-secondary"> 0 h 0 m</span> <i class="fa-solid fa-people-roof"></i><span class="text-secondary"> 0 students </span></p>
+          <a class="card-title fw-bold text-secondary text-decoration-none link-anim" href="" >english language</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+       <a href=""><img src="../images/mama edura.jpg" class="card-img-top" alt="..."><button href="" class="small btn btn-success-subtle ">thre</button>
+    </a> 
+        <div class="card-body text-start">
+          <p class="card-text"><i class="fa-solid fa-clock-twelve"></i><span class="text-secondary"> 0 h 0 m</span> <i class="fa-solid fa-people-roof"></i><span class="text-secondary"> 0 students </span></p>
+          <a class="card-title fw-bold text-secondary text-decoration-none link-anim" href="" >mama edura</a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col">
+      <div class="card h-100">
+       <a href=""><img src="../images/life coaching.png" class="card-img-top" alt="..."><button href="" class="small btn btn-success-subtle ">thinking</button>
+    </a> 
+        <div class="card-body text-start">
+          <p class="card-text"><i class="fa-solid fa-clock-twelve"></i><span class="text-secondary"> 0 h 0 m</span> <i class="fa-solid fa-people-roof"></i><span class="text-secondary"> 0 students </span></p>
+          <a class="card-title fw-bold text-secondary text-decoration-none link-anim" href="">life coaching</a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col">
+      <div class="card h-100">
+       <a href=""><img src="../images/French-Language.png" class="card-img-top" alt="..."><button href="" class="small btn btn-success-subtle ">french language</button>
+    </a> 
+        <div class="card-body text-start">
+          <p class="card-text"><i class="fa-solid fa-clock-twelve"></i><span class="text-secondary"> 0 h 0 m</span> <i class="fa-solid fa-people-roof"></i><span class="text-secondary"> 0 students </span></p>
+          <a class="card-title fw-bold text-secondary text-decoration-none link-anim" href="">French-Language</a>
+        </div>
+      </div>
+    </div>
+   <div class="col">
+      <div class="card h-100">
+       <a href=""><img src="../images/نادي المناظره.jpg" class="card-img-top" alt="..."><button href="" class="small btn btn-success-subtle ">english</button>
+    </a> 
+        <div class="card-body text-start">
+          <p class="card-text"><i class="fa-solid fa-clock-twelve"></i><span class="text-secondary"> 0 h 0 m</span> <i class="fa-solid fa-people-roof"></i><span class="text-secondary"> 0 students </span></p>
+          <a class="card-title fw-bold text-secondary text-decoration-none link-anim" href="">Debate club</a>
+        </div>
+      </div>
+    </div>
+   <div class="col">
+      <div class="card h-100">
+       <a href=""><img src="../images/نادي العلوم.jpg" class="card-img-top" alt="..."><button href="" class="small btn btn-success-subtle ">english</button>
+    </a> 
+        <div class="card-body text-start">
+          <p class="card-text"><i class="fa-solid fa-clock-twelve"></i><span class="text-secondary"> 0 h 0 m</span> <i class="fa-solid fa-people-roof"></i><span class="text-secondary"> 0 students </span></p>
+          <a class="card-title fw-bold text-secondary text-decoration-none link-anim" href="">science club</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
